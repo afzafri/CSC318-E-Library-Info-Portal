@@ -1,6 +1,7 @@
 # E-Library Info Portal
 - Responsive and Interactive web application
 - PHP, Bootstrap Library, jQuery Library, Javascript,MYSQL database
+- Demo Page: http://elibrary.reaperz.net/
 
 # Purpose
 - Developed for my university course project, CSC318 - Web Application Development
@@ -19,3 +20,6 @@
    - username : admin
    - password : 123
 6. Enjoy
+
+# Credit
+- AdminLTE Control Panel Template - https://almsaeedstudio.com/
