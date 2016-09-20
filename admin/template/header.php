@@ -104,7 +104,17 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <?php echo "<img src='../images/users/".$adminid.".jpg' class='img-circle' alt='User Image'>"; ?>
+              <?php
+              if(file_exists('../images/users/'.$adminid.'.jpg'))
+              {
+               echo "<img src='../images/users/".$adminid.".jpg' class='img-circle' alt='User Image'>"; 
+              }
+              else
+              {
+                echo "<img src='../images/users/noimage.jpg' class='img-circle' alt='User Image'>"; 
+              }
+
+              ?>
             </div>
             <div class="pull-left info">
               <p><?php echo $adminname ?></p>
