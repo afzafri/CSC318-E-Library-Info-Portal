@@ -44,3 +44,4 @@
 - PHPMailer - https://github.com/PHPMailer/PHPMailer
 - Bootstrap-select - https://silviomoreto.github.io/bootstrap-select/
 - Font Awesome - http://fontawesome.io/
+- Loading Animation CSS - http://tobiasahlin.com/spinkit/
