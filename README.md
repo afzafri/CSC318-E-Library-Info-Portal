@@ -21,5 +21,26 @@
    - password : 123
 6. Enjoy
 
-# Credit
+# Main files and Explanation
+1. Server side PHP codes located in:
+	- Website: "./process.php" 
+	- Admin Panel: "./admin/process.php"
+	- The "process.php" files contains all the main processing code of the system (ex: receive input from form,insert data to database etc.)
+	
+2. Client side scripting Javascript and jQuery codes located in:
+	- Website: "/template/js/script.js" 
+	- Admin Panel: "./admin/template/scripts/script.js"
+	- The "script.js" files contains all Javascript and jQuery codes that will receive the data from Front-end and send it to Back-end ("process.php"). It also used for retrieving data from "process.php" and append into HTML webpage. 
+
+3. These two files is used to created dynamic and interactive Web Application
+	
+# Credits
+- Bootstrap Framework - http://getbootstrap.com/
+- jQuery Library - https://jquery.com/
 - AdminLTE Control Panel Template - https://almsaeedstudio.com/
+- Alertify.js - http://alertifyjs.com/
+- Chart.js - http://www.chartjs.org/
+- Jssor - http://www.jssor.com/
+- PHPMailer - https://github.com/PHPMailer/PHPMailer
+- Bootstrap-select - https://silviomoreto.github.io/bootstrap-select/
+- Font Awesome - http://fontawesome.io/
